@@ -4,10 +4,16 @@ Combined DocC documentation site for all Ivor packages.
 
 ## <a name="overview">Overview</a>
 
-ivor-packages-docs aggregates the API reference for the full Ivor family of
-Swift packages into a single, cross-linked [DocC][docc] site published via
-GitHub Pages. Documentation is rebuilt nightly from the `main` branch of each
-package.
+The repository aggregates the API reference documentation for the full Ivor
+family of Swift packages into a single, cross-linked [DocC][docc] site published
+via GitHub Pages.
+
+A nightly CI job checks whether any package's `main` branch has changed since
+the last build. If so, it rebuilds the combined archive, transforms it for
+static hosting, and force-pushes the result to the `docc-publish` branch, from
+which GitHub Pages serves the site. If nothing has changed upstream, the job
+exits early without rebuilding or committing anything. The `main` branch of this
+repository contains only source and configuration — no generated output.
 
 Packages covered:
 
@@ -16,8 +22,8 @@ Packages covered:
 - [IvorGuido][ivorguido] — A Guido Music Notation parser
 - [IvorJohnnySonic][ivorjohnnysonic] — A Johnny Sonic score file formatter
 - [IvorMIDI][ivormidi] — A Standard MIDI Files parser and formatter
-- [IvorModel][ivormusicxml] — A MusicXML parser
-- [IvorMusicXML][ivortools] — 
+- [IvorModel][ivormodel] — 
+- [IvorMusicXML][ivormusicxml] — A MusicXML parser
 - [IvorTiming][ivortiming] — 
 - [IvorTuning][ivortuning] — 
 
