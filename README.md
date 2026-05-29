@@ -18,14 +18,15 @@ repository contains only source and configuration — no generated output.
 Packages covered:
 
 - [IvorABC][ivorabc] — An ABC Notation parser
-- [IvorExtern][ivorextern] — 
+- [IvorExtern][ivorextern] — An import and export framework for external music
+  notation formats
 - [IvorGuido][ivorguido] — A Guido Music Notation parser
 - [IvorJohnnySonic][ivorjohnnysonic] — A Johnny Sonic score file formatter
 - [IvorMIDI][ivormidi] — A Standard MIDI Files parser and formatter
-- [IvorModel][ivormodel] — 
+- [IvorModel][ivormodel] — A representation-agnostic musical composition model
 - [IvorMusicXML][ivormusicxml] — A MusicXML parser
-- [IvorTiming][ivortiming] — 
-- [IvorTuning][ivortuning] — 
+- [IvorTiming][ivortiming] — Musical time, duration, and tempo types
+- [IvorTuning][ivortuning] — Musical pitch, interval, and tuning system types
 
 ## <a name="reference_documentation">Reference Documentation</a>
 
