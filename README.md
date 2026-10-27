@@ -17,14 +17,28 @@ repository contains only source and configuration — no generated output.
 
 Packages covered:
 
-- [IvorABC][ivorabc] — An ABC Notation parser
+- [IvorABC][ivorabc] — An ABC Notation parser, normalizer, validator, and
+  formatter
+- [IvorConnect][ivorconnect] — MIDI playback through CoreMIDI and Apple’s
+  built-in General MIDI synth
+- [IvorDKM][ivordkm] — A JohnnySonic score file parser, normalizer, validator,
+  and formatter
 - [IvorExtern][ivorextern] — An import and export framework for external music
   notation formats
-- [IvorGuido][ivorguido] — A Guido Music Notation parser
-- [IvorJohnnySonic][ivorjohnnysonic] — A Johnny Sonic score file formatter
-- [IvorMIDI][ivormidi] — A Standard MIDI Files parser and formatter
+- [IvorGeneralMIDI][ivorgeneralmidi] — General MIDI 1 and 2 instrument, drum
+  set, and percussion sound types
+- [IvorGMN][ivorgmn] — A Guido Music Notation parser, normalizer, validator, and
+  formatter
+- [IvorMIDI][ivormidi] — MIDI channel message, system message, and data value
+  types
+- [IvorMIDI2][ivormidi2] — Universal MIDI Packet (UMP) group and message
+  encoding types
 - [IvorModel][ivormodel] — A representation-agnostic musical composition model
-- [IvorMusicXML][ivormusicxml] — A MusicXML parser
+- [IvorMXL][ivormxl] — A MusicXML parser, normalizer, validator, and formatter
+- [IvorSMF][ivorsmf] — A Standard MIDI Files parser, normalizer, validator, and
+  formatter
+- [IvorSMPTE][ivorsmpte] — SMPTE timecode, frame rate, and timecode conversion
+  types
 - [IvorTiming][ivortiming] — Musical time, duration, and tempo types
 - [IvorTuning][ivortuning] — Musical pitch, interval, and tuning system types
 
@@ -42,12 +56,17 @@ ivor-packages-docs is available under [the MIT license][license].
 
 [docc]:             https://www.swift.org/documentation/docc/
 [ivorabc]:          https://github.com/eBardX/IvorABC
+[ivorconnect]:      https://github.com/eBardX/IvorConnect
+[ivordkm]:          https://github.com/eBardX/IvorDKM
 [ivorextern]:       https://github.com/eBardX/IvorExtern
-[ivorguido]:        https://github.com/eBardX/IvorGuido
-[ivorjohnnysonic]:  https://github.com/eBardX/IvorJohnnySonic
+[ivorgeneralmidi]:  https://github.com/eBardX/IvorGeneralMIDI
+[ivorgmn]:          https://github.com/eBardX/IvorGMN
 [ivormidi]:         https://github.com/eBardX/IvorMIDI
+[ivormidi2]:        https://github.com/eBardX/IvorMIDI2
 [ivormodel]:        https://github.com/eBardX/IvorModel
-[ivormusicxml]:     https://github.com/eBardX/IvorMusicXML
+[ivormxl]:          https://github.com/eBardX/IvorMXL
+[ivorsmf]:          https://github.com/eBardX/IvorSMF
+[ivorsmpte]:        https://github.com/eBardX/IvorSMPTE
 [ivortiming]:       https://github.com/eBardX/IvorTiming
 [ivortuning]:       https://github.com/eBardX/IvorTuning
 [license]:          https://github.com/eBardX/ivor-packages-docs/blob/main/LICENSE.md
