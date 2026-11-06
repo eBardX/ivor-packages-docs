@@ -1,5 +1,5 @@
 {
-  "originHash" : "10624aeee88465aca46abc6d99fab40a30d98cc2fbf6fdb62b0a79c8d7019b6d",
+  "originHash" : "15ff394aa49e2eaad8767176a3e238f5fcd75426927a18ae536b6d41fd82cf26",
   "pins" : [
     {
       "identity" : "bigint",
@@ -16,7 +16,7 @@
       "location" : "https://github.com/eBardX/IvorABC.git",
       "state" : {
         "branch" : "main",
-        "revision" : "dca5802491341ce0f0ac513e38c3d6924483d0ad"
+        "revision" : "a222cf2e0ef9e65bbf4faf24d4987af51c94353a"
       }
     },
     {
@@ -25,7 +25,7 @@
       "location" : "https://github.com/eBardX/IvorConnect.git",
       "state" : {
         "branch" : "main",
-        "revision" : "1f4ba40b3def2df749ac583ae0ecf51964086d67"
+        "revision" : "ee48649c935425803b088555b9a3e0911de4ad6b"
       }
     },
     {
@@ -34,7 +34,7 @@
       "location" : "https://github.com/eBardX/IvorDKM.git",
       "state" : {
         "branch" : "main",
-        "revision" : "a001b5dedec1e3acb7bd5927b5620345dc1045aa"
+        "revision" : "8f05a5ee8b8d0af91578a13b845bd0824449696f"
       }
     },
     {
@@ -43,7 +43,7 @@
       "location" : "https://github.com/eBardX/IvorExtern.git",
       "state" : {
         "branch" : "main",
-        "revision" : "db226828212565da64e670dcf6add62f7a02ca3e"
+        "revision" : "32041bb4c2c36d36e7fd08845e7386d89a1e0f26"
       }
     },
     {
@@ -52,7 +52,7 @@
       "location" : "https://github.com/eBardX/IvorGeneralMIDI.git",
       "state" : {
         "branch" : "main",
-        "revision" : "9c527d68fce454fe7a27711cfdb40e5f4295e500"
+        "revision" : "6947cb8d8826310cc4516420e2747760502f0bfc"
       }
     },
     {
@@ -61,7 +61,7 @@
       "location" : "https://github.com/eBardX/IvorGMN.git",
       "state" : {
         "branch" : "main",
-        "revision" : "907d6a01c3f60c46aa7e857f62e82d4d05f2ae63"
+        "revision" : "4275fcea034f11251fd3d01583054ede41765243"
       }
     },
     {
@@ -70,7 +70,7 @@
       "location" : "https://github.com/eBardX/IvorMIDI.git",
       "state" : {
         "branch" : "main",
-        "revision" : "a0b16e852db2700562495d21c328fb16c1a47838"
+        "revision" : "49426e61ca67b1789037b727635b7baa484e6200"
       }
     },
     {
@@ -79,7 +79,7 @@
       "location" : "https://github.com/eBardX/IvorMIDI2.git",
       "state" : {
         "branch" : "main",
-        "revision" : "291d0467ece56e3b88d4ce27c2f07649f385b1a1"
+        "revision" : "0fecd34db2db21490dfeda1a1f0bde256ca888a3"
       }
     },
     {
@@ -88,7 +88,7 @@
       "location" : "https://github.com/eBardX/IvorModel.git",
       "state" : {
         "branch" : "main",
-        "revision" : "98fd1a9fc0059331e74f27199d02315b0a771478"
+        "revision" : "a380600a89cc82c0fee504a725cee9cfa0f1a44d"
       }
     },
     {
@@ -97,7 +97,7 @@
       "location" : "https://github.com/eBardX/IvorMXL.git",
       "state" : {
         "branch" : "main",
-        "revision" : "f005826b9ff2370878cbf544b3d78cda484d990b"
+        "revision" : "c61aa901bf14013889dcea0f1e913005c4a787b2"
       }
     },
     {
@@ -106,7 +106,7 @@
       "location" : "https://github.com/eBardX/IvorSMF.git",
       "state" : {
         "branch" : "main",
-        "revision" : "317d79e15c2f414ebc7000291970ad3c3732fb79"
+        "revision" : "8f9b3721a26574f9abc5a635d53127bd1fd60544"
       }
     },
     {
@@ -115,7 +115,7 @@
       "location" : "https://github.com/eBardX/IvorSMPTE.git",
       "state" : {
         "branch" : "main",
-        "revision" : "bc2a594c2ee6f717cf35ebc5569e21b21945fff0"
+        "revision" : "98ee36c1bb623abe43c390b92387135dd1401946"
       }
     },
     {
@@ -124,7 +124,7 @@
       "location" : "https://github.com/eBardX/IvorTiming.git",
       "state" : {
         "branch" : "main",
-        "revision" : "6b39e3bc9aad892e663e82762d6471b3fa44c4fb"
+        "revision" : "541b4454a1eb79717965362bfe8c911563f87e15"
       }
     },
     {
@@ -133,7 +133,7 @@
       "location" : "https://github.com/eBardX/IvorTuning.git",
       "state" : {
         "branch" : "main",
-        "revision" : "533c755e3fdddfa5dff501196a6a6bc22bd8b4e2"
+        "revision" : "d448fa48b4fad4eb4b313c022ea909d681a05783"
       }
     },
     {
@@ -159,8 +159,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eBardX/XestiMarkov.git",
       "state" : {
-        "revision" : "d27e36905aaa9a978f8433ca313dc946f511c86d",
-        "version" : "3.0.2"
+        "revision" : "dfd96819e700b6de3f28a4158b8d4dc1a22532ae",
+        "version" : "4.0.0"
       }
     },
     {
@@ -177,8 +177,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/eBardX/XestiSexp",
       "state" : {
-        "revision" : "5b40da8ebb648dbde8c1419c38de16209698b05e",
-        "version" : "5.0.5"
+        "revision" : "b381dd54d63921ff314423344455e0bcdb2281d8",
+        "version" : "5.0.6"
       }
     },
     {
